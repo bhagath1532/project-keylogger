@@ -1,0 +1,23 @@
+# Core dependency for keylogger simulation
+pynput>=1.7.6
+
+# For working with XML (Sysmon logs etc.)
+lxml>=4.9.0
+python-evtx>=0.7.4
+
+# Time/date handling
+python-dateutil>=2.8.2
+
+# Path utilities
+pathlib2>=2.3.7
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Optional data analysis
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Optional ML experiments (future use)
+scikit-learn>=1.1.0
